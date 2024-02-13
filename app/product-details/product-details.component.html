@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <!-- Western Wear -->
+    <div class="item-card col-md-4" *ngFor="let product of westernWearProducts">
+      <h5>{{ product.name }}</h5>
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+      <p>{{ product.price }}</p>
+    </div>
+
+    <!-- Ethnic Wear -->
+    <div class="item-card col-md-4" *ngFor="let product of ethnicWearProducts">
+      <h5>{{ product.name }}</h5>
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+      <p>{{ product.price }}</p>
+  </div>
+
+    <!-- Kids Wear -->
+    <div class="item-card col-md-4" *ngFor="let product of kidsWearProducts">
+      <h5>{{ product.name }}</h5>
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+      <p>{{ product.price }}</p>
+    </div>
+
+    <!-- Mens Wear -->
+    <div class="item-card col-md-4" *ngFor="let product of mensWearProducts">
+      <h5>{{ product.name }}</h5>
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+      <p>{{ product.price }}</p>
+    </div>
+
+    <!-- Makeover -->
+    <div class="item-card col-md-4" *ngFor="let product of makeOverProducts">
+      <h5>{{ product.name }}</h5>
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+      <p>{{ product.price }}</p>
+    </div>
+  </div>
+</div>

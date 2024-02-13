@@ -1,0 +1,11 @@
+<div class="carousel-container">
+  <div class="carousel-wrapper" [ngStyle]="{'transform': 'translateX(-' + selectedIndex * (100 / carousel.items.length) + '%)'}">
+    <div class="carousel-slide" *ngFor="let item of carousel.items; let i = index">
+      <img [src]="item.imageUrl" [alt]="item.altText">
+      <div class="carousel-caption">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

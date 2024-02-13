@@ -1,40 +1,50 @@
-body{
-    background-color: beige;
-}
-.text {
-    font-size: 20px;
-    font-weight: 400;
-    color:blue;
-    background-color: #ece3e3dc;
+.container {
+   
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure the container takes up at least the height of the viewport */
     }
-    h3{
-        padding-right: 450px;
-    }
-    .logo{
-       
-        display: flex;
-        float:  inline-start;        
-    }
-    .form-control{
-        
-        width: 12%;
-        height: 22px;
-        margin-block: 22px;
-    }
-    .btn {
-        width: 5%;
-        height: 22px;
-        margin-block: 22px;
-    }
-    i.size {
-        font-size: 30px;
-        margin-block: 22px;
-        color: black;
-        margin-left: 200px; 
-    }
-    i {
-        font-size: 30px;
-        margin-block: 22px;
-        color: black;
-        margin-left: 70px; 
-    }
+    
+    /* Add styles for header, carousel, and footer as needed */
+    
+  
+
+  .middlebar {
+    width: 15px;
+    background-color: #cabdbd;
+    padding: 250px;
+    height: 2px;
+  }
+  
+  
+  .sidebar {
+    width: 250px;
+    background-color: #ef2e2e;
+    padding: 20px;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 1000;
+    margin: 1000;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 1000px;
+  }
+  
+  .sidebar nav ul li a {
+    color: #49adec;
+    text-decoration: none;
+  }
+  
+  .sidebar nav ul li a.active {
+    font-weight: bold;
+  }
+  
+  .main-content {
+    flex-grow: 1000;
+    padding: 200px;
+  }
+
+

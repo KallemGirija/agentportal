@@ -1,0 +1,41 @@
+/* Footer styles */
+footer {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Padding top and bottom */
+  width: 100%; /* Ensure footer spans the entire width */
+  margin-top: 10px; /* Add margin to the top to move the footer downwards */
+}
+
+.container {
+  max-width: 1200px; /* Maximum width of content */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 0 20px; /* Padding left and right */
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly across the container */
+  align-items: center; /* Center items vertically */
+}
+
+ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+ul li:last-child {
+  margin-right: 80px; /* Adjusted margin for the last list item */
+}
+
+a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

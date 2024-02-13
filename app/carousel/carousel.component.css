@@ -1,0 +1,32 @@
+.carousel-container {
+    overflow: hidden;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    flex-wrap: nowrap; /* Ensure slides are displayed in a single row */
+  }
+  
+  .carousel-slide {
+    flex: 0 0 auto; /* Allow slides to grow and shrink based on available space */
+    padding: 0 10px; /* Adjust as needed */
+    box-sizing: border-box;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    margin: 0;
+  }
+  

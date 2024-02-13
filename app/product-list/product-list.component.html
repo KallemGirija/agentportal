@@ -1,0 +1,20 @@
+<!-- product-list.component.html -->
+
+<div class="product-list-container">
+    <h2>Product List</h2>
+    
+    <div *ngIf="products.length === 0" class="empty-list">
+      No products available.
+    </div>
+    
+    <div *ngIf="products.length > 0" class="product-items">
+      <div *ngFor="let product of products" class="product-item">
+        <div class="product-details">
+          <h3>{{ product.name }}</h3>
+          <p>Price: {{ product.price }}</p>
+          <p>Category: {{ product.category }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

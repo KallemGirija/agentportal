@@ -1,0 +1,49 @@
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 10px; /* Adjust the spacing between navbar items */
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link i {
+  margin-right: 5px; /* Adjust the spacing between icon and text */
+}
+
+.navbar-brand,
+.navbar-toggler {
+  margin-right: 20px; /* Adjust the spacing between brand/logo and navbar items */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}

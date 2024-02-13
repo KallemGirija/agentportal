@@ -1,0 +1,19 @@
+.search-bar {
+    position: relative;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px 8px 8px 30px; /* Adjust the padding to leave space for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar input[type="text"]::placeholder:before {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f002'; /* Unicode character for the search icon */
+    position: absolute;
+    left: 10px; /* Adjust the position of the icon */
+    color: #aaa; /* Color of the placeholder text */
+  }
+  

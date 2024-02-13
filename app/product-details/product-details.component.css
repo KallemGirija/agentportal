@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-card {
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  max-width: 250px; /* Set a maximum width for each item card */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.item-card h5 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.item-card p {
+  font-size: 0.9rem;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.item-card button {
+  margin-top: 10px;
+}

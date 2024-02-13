@@ -1,75 +1,38 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PageComponent } from './page/page.component';
-import { CardComponent } from './card/card.component';
-import { TableComponent } from './table/table.component';
-import{HttpClientModule} from '@angular/common/http';
-import { CalendarComponent } from './calendar/calendar.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from '@angular/material/icon';
-import { SidenavComponent } from './sidenav/sidenav.component'
-import {MatProgressBarModule} from '@angular/material/progress-bar';
-import { BarComponent } from './bar/bar.component';
-import { WishesComponent } from './wishes/wishes.component';
-import { MainComponent } from './main/main.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { LeadComponent } from './lead/lead.component';
-import { ReactiveFormsModule } from '@angular/forms';
-import {MatTableModule} from '@angular/material/table';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import { MatStepperModule } from '@angular/material/stepper';
-import { MatInputModule } from '@angular/material/input';
-import { MatButtonModule } from '@angular/material/button';
-import { MultiformComponent } from './multiform/multiform.component';
-import { QualifiedComponent } from './qualified/qualified.component';
-import { InterestedComponent } from './interested/interested.component';
-import { BirthdayWishComponent } from './birthday-wish/birthday-wish.component';
-import { RenewalComponent } from './renewal/renewal.component';
-import { ExpiredComponent } from './expired/expired.component';
-import { TotalComponent } from './total/total.component';
+import { RouterModule, Routes } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CartComponent } from './cart/cart.component';
+import { HeaderComponent } from './header/header.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { FormsModule } from '@angular/forms';
+import { CarouselComponent } from './carousel/carousel.component';
+import { ProductComponent } from './product/product.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent,
-    CardComponent,
-    TableComponent,
-    CalendarComponent,
-    SidenavComponent,
-    BarComponent,
-    WishesComponent,
-    MainComponent,
-    DashboardComponent,
-    LeadComponent,
-    MultiformComponent,
-    QualifiedComponent,
-    InterestedComponent,
-    BirthdayWishComponent,
-    RenewalComponent,
-    ExpiredComponent,
-    TotalComponent,
-
-    
-    
+    FooterComponent,
+    ProductListComponent,
+    ProductDetailsComponent,
+    CartComponent,
+    HeaderComponent,
+    SearchBarComponent,
+    CarouselComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    MatIconModule,
-    BrowserAnimationsModule,
-    MatProgressBarModule,
-    FormsModule,
-    MatTableModule,
-    MatFormFieldModule,
-    MatStepperModule,
-    MatInputModule,
-    MatButtonModule,
-    ReactiveFormsModule
-    
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
